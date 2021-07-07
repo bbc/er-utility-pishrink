@@ -134,6 +134,7 @@ else
   exit
 fi
 }
+ssh-keygen -A
 raspi_config_expand
 echo "WARNING: Using backup expand..."
 sleep 5
